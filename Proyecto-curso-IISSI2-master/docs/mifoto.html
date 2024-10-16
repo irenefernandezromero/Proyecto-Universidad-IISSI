@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> PHOTOGRAM </title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/utils/include.js"></script>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no ">
+    <link rel="stylesheet" href= "/css/bootstrap.min.css">
+    <link rel="stylesheet" href= "/css/font-awesome.min.css">
+    <script src="/js/libs/jquery-3.4.1.min.js"> </script>
+    <script src="/js/libs/popper.min.js"> </script>
+    <script src="/js/libs/bootstrap.min.js"> </script>
+
+</head>
+
+<body>
+    <div class=container>
+        <div id="page-header"></div>
+            
+        <div class="row text-center">
+            <div class="col-md">
+                <div class="col-md">
+                    <h3 class="card-title text-center"> <a href="perfil.html" class="btn btn-info"> @ireferrom </a></h3>
+                    <img src="./images/foto7.jpg" class="img-fluid" width="300" height="300">
+                    <p></p>
+                    <h6>¡Por fin tengo este libro en físico!</h6>
+                </div>
+            </div>
+             
+            <div class="col-md">
+                <div class="row">
+                    <p>
+                    <button class= "btn btn-primary"> Edit this photo </button>
+                    <button class= "btn btn-danger"> Delete this photo </button>
+                    </p>
+                </div>
+                <p></p>
+                <div class="row">
+                    <p>
+                        @rosamartin ha comentado: ¡Ese es mi libro favorito de la saga!
+                        <p>
+                        @juanrodri1 ha comentado: ¿Me lo prestarás cuando lo acabes?.
+                        <p>
+                    </p >
+                    <form >
+                        <div class= "form-group">
+                            <label for= "rating-input"> Rate this photo: </label>
+                            <select id="rating-input" name= "rating" class= "form-control">
+                                <option value= "1">⭐ </option>
+                                <option value= "2">⭐⭐</option>
+                                <option value= "3">⭐⭐⭐ </option>
+                                <option value= "4">⭐⭐⭐⭐</option>
+                                <option value= "5">⭐⭐⭐⭐⭐</option>
+                            </select>
+                            <button type= " submit " class= " btn btn-success "> Rate </button >
+                        </div >
+                    <p>Score: 3.8⭐</p>
+                        
+                    </form >
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+    <script>
+        include("header.html", "#page-header");
+    </script>
+</body>
+

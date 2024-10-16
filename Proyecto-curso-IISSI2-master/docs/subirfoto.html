@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title> PHOTOGRAM </title>
+    <link rel= "icon" href= "images/logo.jpg"></li> 
+    <link rel="stylesheet" href="css/style.css">
+    <script src= "js/utils/include.js"></script>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no ">
+    <link rel="stylesheet" href= "/css/bootstrap.min.css">
+    <link rel="stylesheet" href= "/css/font-awesome.min.css">
+    <script src="/js/libs/jquery-3.4.1.min.js"> </script>
+    <script src="/js/libs/popper.min.js"> </script>
+    <script src="/js/libs/bootstrap.min.js"> </script> 
+
+</head>
+
+<body>
+
+    <div class=container>
+        <div id="page-header"></div>
+            
+        <div class="row text-center">
+            <div class="col-md">
+                <div class="col-md">
+                    <img src="./images/subirfoto.jpg" class="img-fluid" width="300" height="300">
+                    <h3><button class= "btn btn-primary"> Buscar Archivo </button></h3>
+                    <h3 class="card-title text-center"> <a href="index.html" class="btn btn-success"> Publicar </a></h3>
+                 </div>
+            </div>
+            <div class="col-md" id= "comentarios">
+                <p>
+                    <p>Título:</p><input type="text" class="form-control" id="subir-foto" name="titulo" placeholder="Título"></p>
+                    <p>Descripción:</p><input type="text" class="form-control" id="subir-foto" name="descripción" placeholder="Descripción"></p>
+                    <p>Tipo de publicación: </p> 
+                    <div>
+                        <input type="radio" id="contactChoice1"
+                         name="contact" value="privada">
+                        <label for="contactChoice1">Privada</label>
+                    
+                        <input type="radio" id="contactChoice2"
+                         name="contact" value="publica">
+                        <label for="contactChoice2">Publica</label>
+                    </div>
+
+
+                </p >
+                
+            </div>
+        </div>
+
+        
+
+    </div>
+
+
+    <script>include('header.html','#page-header')</script>
+</body>
+
+
+</html>

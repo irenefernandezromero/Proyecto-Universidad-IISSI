@@ -1,0 +1,90 @@
+.photo-block {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+.photo-title {
+    font-size: 140%;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.photo-score {
+    font-family: 130%;
+    font-family: monospace;
+}
+.card-img-top  {
+    height: 300px;
+    width: auto;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.input-group > label {
+    display: inline-block;
+    width: 100 px;
+    text-align: right;
+}
+.input-group {
+    margin-bottom: 0.5 em;
+}
+
+div.title-block{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#title{
+    font-size: 400%;
+    text-decoration: none;
+    color: #000000;
+    font-family: Colonna MT ;
+    margin-bottom: 0;
+}
+#subtitle{
+    font-size: 120%;
+    font-style: italic;
+    color: #555555;
+    font-family: monospace;
+}
+div.navigation > a {
+    color: white;
+    font-size: 120%;
+    background-color: #555555;
+    font-family: monospace;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Gabriola ;
+
+}
+
+.blanco {
+    color: white;
+}
+
+body {
+    background-image: url("../images/fondo.jpg");
+  }
+
+
+.foto{
+    position: relative;
+    left: 110px;
+}
+
+#comentarios {
+    text-align: left;
+}
+
+.imgRedonda {
+    width:120px;
+    height:120px;
+    border-radius:150px;
+}

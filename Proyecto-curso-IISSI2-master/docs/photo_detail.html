@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Example page </title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/utils/include.js"></script>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no ">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script src="/js/libs/jquery-3.4.1.min.js"> </script>
+    <script src="/js/libs/popper.min.js"> </script>
+    <script src="/js/libs/bootstrap.min.js"> </script>
+    <script src="/js/libs/axios.min.js"></script>
+    <script src="/js/photo_details.js" type="module"></script>
+    <script src="/js/header.js" type="module"> </script>
+    <script src="/js/renderers/valoration.js" type="module"> </script>
+    <script src="/js/renderers/comment.js" type="module"> </script>
+
+    
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="page-header"></div>
+        <div id="errors"></div>
+        <div class="row">
+            <div class="col-md-7" id="photo-details-colum"></div>            
+            
+            <div class="col-md-4" >
+                <div class="row" id="photo-buttons-colum">
+                <button id="button-edit" class=" btn btn-primary"> Editar</button> <button id="button-delete"
+                    class=" btn btn-danger"> Eliminar</button>
+                <p></p>
+                
+                <form id="valoracion" class="col-sm-12 mt-5">
+                    
+                    <select id="rating-input" name="value" class="col-sm-12 rounded border-2">
+                        <option value="1">⭐</option>
+                        <option value="2">⭐⭐</option>
+                        <option value="3">⭐⭐⭐</option>
+                        <option value="4">⭐⭐⭐⭐</option>
+                        <option value="5">⭐⭐⭐⭐⭐</option>
+                    </select>
+                    <p></p>
+                    <button type="submit" class="btn btn-primary">Enviar valoración</button>
+                    <p></p>
+                </form>
+                
+                <form class="col-sm-15 mt-4" id="form-comment">
+                <h6>Comentar</h6>
+                <div class="form-group" id="comments-details">
+                    <label for="input-comentario"></label>
+                    <textarea class="form-control" id="input-comentario" name="comment"
+                        placeholder="Escribe tu comentario..." rows="2"></textarea>
+                    <button type="submit" class="btn btn-danger mt-1 p-0 col-sm-3">
+                        <small> Enviar </small>
+                    </button>
+                </div>
+
+                </form>
+                </div>
+                <div class="row">
+                        <div id ="valoracion-details" class="col-sm-8">
+        
+                        </div>
+                        <div id= "mostrar-comentarios" class="col-sm-15 mt-4">
+            
+                        </div> 
+                    
+                </div>
+                              
+            </div>
+            
+            
+
+            
+        </div>
+
+    </div>
+
+    <script>
+        include("header.html", "#page-header");
+    </script>
+</body>
